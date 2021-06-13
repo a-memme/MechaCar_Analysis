@@ -29,6 +29,28 @@ In summary, the multiple regression model's p and r-sqaured values indicate ther
 
 ![lot_stats](https://user-images.githubusercontent.com/79600550/121824147-02337280-cc78-11eb-9288-f02702f366f6.png)
 
+Based on the tables above, the current manufacturing data meets the design specification of suspension coils not exceeding 100 pounds per square inch for the entire set, however, it does not meet this requirement when isolating for cars on lot 3. A potential explanation for this could simply be due to the fact that each lot can be considered a sample of cars representing a much larger population of all Mecha cars that exist. Although the other two lots met this requirement, there is still the possibility that these sample sizes (i.e number of cars on each lot), aren't large enough and thus, are not reliable in representing the entire population of cars. 
+
+
+## T-Tests on Suspension Coils 
+* See images or reference Challenge_summary_stats.txt*
+### Total Summary
+![total_summarystats](https://user-images.githubusercontent.com/79600550/121824333-7d495880-cc79-11eb-835a-bfd19fe0d54b.png)
+
+When compared to the population mean, PSI of cars on all lots renders a p-value of 0.06 therefore is not considered statistically significant. This means that there is reason to believe that any variability in the data is due to random chance, and that the sample can be considered representative of the population. The distribution was also visualized below to ensure its normaility and hence, t-test accuracy.
+
+![PSI_visualization](https://user-images.githubusercontent.com/79600550/121824436-2bed9900-cc7a-11eb-8dd9-3d4b27aa9520.png)
+
+
+### Lot 1
+** See image or reference Challenge_summary_stats.txt*
+![lot1_summary](https://user-images.githubusercontent.com/79600550/121824310-42472500-cc79-11eb-872b-0d0b7a3a75bd.png)
+
+The above summary stastics on Lot 1 render a p-value of 
+
+![total_summarystats](https://user-images.githubusercontent.com/79600550/121824333-7d495880-cc79-11eb-835a-bfd19fe0d54b.png)
+
+
 
 
 
