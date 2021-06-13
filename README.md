@@ -29,7 +29,7 @@ In summary, the multiple regression model's p and r-sqaured values indicate ther
 
 ![lot_stats](https://user-images.githubusercontent.com/79600550/121824147-02337280-cc78-11eb-9288-f02702f366f6.png)
 
-Based on the tables above, the current manufacturing data meets the design specification of suspension coils not exceeding 100 pounds per square inch for the entire set, however, it does not meet this requirement when isolating for cars on lot 3. A potential explanation for this could simply be due to the fact that each lot can be considered a sample of cars representing a much larger population of all Mecha cars that exist. Although the other two lots met this requirement, there is still the possibility that these sample sizes (i.e number of cars on each lot), aren't large enough and thus, are not reliable in representing the entire population of cars. 
+Based on the tables above, the current manufacturing data meets the design specification of suspension coils not exceeding 100 pounds per square inch for the entire set, however, it does not meet this requirement when isolating for cars on lot 3. A potential explanation for this could be that the cars on lot 3 - acting as a sample of all existing mecha cars - are not statistically representative of the entire population. Although the other two lots meet the PSI requirement, there is still possibility that these sample sizes (i.e number of cars on each lot), aren't large enough and thus, are insufficiently reliable in representing the entire population of cars. 
 
 
 ## T-Tests on Suspension Coils 
@@ -63,6 +63,14 @@ When compared to the population mean, PSI of cars on lot 3 render a p-value of 0
 
 ![lot3_visualize](https://user-images.githubusercontent.com/79600550/121824691-05c8f880-cc7c-11eb-8d8c-8193a7b947e2.png)
 
+## Study Design: MechaCar vs Competition 
+A small and simple statistical study that can quantify performance against competitive car brands would be to simply measure the relationship between car fuel effiency and type of car brand. Here, we can piggy-back off the fuel efficiency interest in the original analysis, and see whether there is a statistically significant difference in fuel efficinecy when analyzing across different car manufacturers. If MechaCar is truley considered a fuel efficient car, then the statistcial analysis will render as significant, and hence show that there is true value in choosing it over competitors based on fuel efficient benefits. 
+
+- metrics: avg mpg for similar car styles (i.e trucks, sedans, sports cars, etc.)
+- null hypothesis: Variation in fuel efficiency across different car brands is not staistically significant.
+- alternative hypothesis: Variation in fuel efficiency across different car brands is statistically significant.
+- statistical test: ANOVA - analysis of variance is the fitting statistical test used when comparing means across a number of groups, which is what is proposed here. A one-way ANOVA would be used as there is one dependent variable (fuel efficiency) and one independent variable (car manufacturer). 
+- data: data needed would be avg mpg for each car manufacturer, controlling for car type. That is, data could be collected for avg mpg in sedans across a number of different car manufacturers. Note - a simple bar chart as an initial visualization here would be helpful to very clearly and simply display where each car manufacturer is situated in their respective mpg levels. From here, statistical tests are performed to determine significance, and once proven/disproven, there is a better understanding of where significance may specifically exist/not exist across manufacturers. 
 
 
 
