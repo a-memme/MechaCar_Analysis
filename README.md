@@ -45,25 +45,23 @@ When compared to the population mean, PSI of cars on all lots renders a p-value 
 ### Lot 1
 ![lot1_summary](https://user-images.githubusercontent.com/79600550/121824462-50e20c00-cc7a-11eb-9369-7521adbfc70c.png)
 
-When compared to the population mean, PSI of cars on lot 1 renders a p-value of 0.06 and therefore is not considered statistically significant. Here, the above sample can also be considered representative of the population. The distribution is visualized below.
+When compared to the population mean, PSI of cars on lot 1 render a p-value of 1.0 and therefore is not considered statistically significant. Here, the above sample can also be considered representative of the population. The distribution is visualized below.
 
 ![lot1_visualization](https://user-images.githubusercontent.com/79600550/121824506-aa4a3b00-cc7a-11eb-8c6f-9aab2a17b305.png)
 
 ### Lot 2
 ![lot2_summary](https://user-images.githubusercontent.com/79600550/121824541-df568d80-cc7a-11eb-8fd9-ea0a8cdaecc2.png)
 
-When compared to the population mean, PSI of cars on lot 2 renders a p-value of 0.60 and therefore is not considered statistically significant. Here, the above sample can also be considered representative of the population. The distribution is visualized below.
+When compared to the population mean, PSI of cars on lot 2 render a p-value of 0.60 and therefore is not considered statistically significant. Here, the above sample can also be considered representative of the population. The distribution is visualized below.
 
 ![lot2_visualization](https://user-images.githubusercontent.com/79600550/121824583-29d80a00-cc7b-11eb-85ea-e7e5b56b3e35.png)
 
+### Lot 3
+![lot3_summary](https://user-images.githubusercontent.com/79600550/121824609-6441a700-cc7b-11eb-967e-2a8330fcc4ad.png)
 
+When compared to the population mean, PSI of cars on lot 3 render a p-value of 0.04 and therefore can be considered statistically significant assuming a level of 0.05. This means that there is reason to believe that variability in the data is not due to random chance - i.e that their differences are statistically significant - and hence, this specific sample cannot be considered accurately representative of the overall population. The normality of the distribution is visualized below.
 
-
-
-
-The above summary stastics on Lot 1 render a p-value of 
-
-![total_summarystats](https://user-images.githubusercontent.com/79600550/121824333-7d495880-cc79-11eb-835a-bfd19fe0d54b.png)
+![lot3_visualize](https://user-images.githubusercontent.com/79600550/121824691-05c8f880-cc7c-11eb-8d8c-8193a7b947e2.png)
 
 
 
