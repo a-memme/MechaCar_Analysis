@@ -37,14 +37,29 @@ Based on the tables above, the current manufacturing data meets the design speci
 ### Total Summary
 ![total_summarystats](https://user-images.githubusercontent.com/79600550/121824333-7d495880-cc79-11eb-835a-bfd19fe0d54b.png)
 
-When compared to the population mean, PSI of cars on all lots renders a p-value of 0.06 therefore is not considered statistically significant. This means that there is reason to believe that any variability in the data is due to random chance, and that the sample can be considered representative of the population. The distribution was also visualized below to ensure its normaility and hence, t-test accuracy.
+When compared to the population mean, PSI of cars on all lots renders a p-value of 0.06 and therefore is not considered statistically significant. This means that there is reason to believe that any variability in the data is due to random chance, and that the sample can be considered representative of the population. The distribution was also visualized below to ensure its normaility and hence, t-test accuracy.
 
 ![PSI_visualization](https://user-images.githubusercontent.com/79600550/121824436-2bed9900-cc7a-11eb-8dd9-3d4b27aa9520.png)
 
 
 ### Lot 1
-** See image or reference Challenge_summary_stats.txt*
-![lot1_summary](https://user-images.githubusercontent.com/79600550/121824310-42472500-cc79-11eb-872b-0d0b7a3a75bd.png)
+![lot1_summary](https://user-images.githubusercontent.com/79600550/121824462-50e20c00-cc7a-11eb-9369-7521adbfc70c.png)
+
+When compared to the population mean, PSI of cars on lot 1 renders a p-value of 0.06 and therefore is not considered statistically significant. Here, the above sample can also be considered representative of the population. The distribution is visualized below.
+
+![lot1_visualization](https://user-images.githubusercontent.com/79600550/121824506-aa4a3b00-cc7a-11eb-8c6f-9aab2a17b305.png)
+
+### Lot 2
+![lot2_summary](https://user-images.githubusercontent.com/79600550/121824541-df568d80-cc7a-11eb-8fd9-ea0a8cdaecc2.png)
+
+When compared to the population mean, PSI of cars on lot 2 renders a p-value of 0.60 and therefore is not considered statistically significant. Here, the above sample can also be considered representative of the population. The distribution is visualized below.
+
+![lot2_visualization](https://user-images.githubusercontent.com/79600550/121824583-29d80a00-cc7b-11eb-85ea-e7e5b56b3e35.png)
+
+
+
+
+
 
 The above summary stastics on Lot 1 render a p-value of 
 
