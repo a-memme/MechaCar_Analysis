@@ -24,9 +24,10 @@ The given mutiple regression model has an r squared value of 0.71 meaning that r
 In summary, the multiple regression model's p and r-sqaured values indicate there is statistical significance and sufficient predictability of the dependent variable in the model. However, with an intercept p-value that is also statistically significant and possibility of overfitting in the model, there is strong indication that a number of alterations can be made to the analysis to provide a more accurate representation of summary statistics - this would be a good look for future analysis. 
 
 ## Summary Statistics on Suspension Coils 
-
+### Total Summary
 ![summary_stats](https://user-images.githubusercontent.com/79600550/121824150-065f9000-cc78-11eb-83e7-8c940147f799.png)
 
+### Lot Summary
 ![lot_stats](https://user-images.githubusercontent.com/79600550/121824147-02337280-cc78-11eb-9288-f02702f366f6.png)
 
 Based on the tables above, the current manufacturing data meets the design specification of suspension coils not exceeding 100 pounds per square inch for the entire set, however, it does not meet this requirement when isolating for cars on lot 3. A potential explanation for this could be that the cars on lot 3 - acting as a sample of all existing mecha cars - are not statistically representative of the entire population. Although the other two lots meet the PSI requirement, there is still possibility that these sample sizes (i.e number of cars on each lot) aren't large enough and thus, are insufficiently reliable in representing the entire population of cars. 
