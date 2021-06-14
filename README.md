@@ -30,7 +30,7 @@ In summary, the multiple regression model's p and r-sqaured values indicate ther
 ### Lot Summary
 ![lot_stats](https://user-images.githubusercontent.com/79600550/121824147-02337280-cc78-11eb-9288-f02702f366f6.png)
 
-Based on the tables above, the current manufacturing data meets the design specification of suspension coils not exceeding 100 pounds per square inch for the entire set, however, it does not meet this requirement when isolating for cars on lot 3. A potential explanation for this could be that the cars on lot 3 - acting as a sample of all existing mecha cars - are not statistically representative of the entire population. Although the other two lots meet the PSI requirement, there is still possibility that these sample sizes (i.e number of cars on each lot) aren't large enough and thus, are insufficiently reliable in representing the entire population of cars. 
+Based on the tables above, the current manufacturing data meets the design specification of suspension coils not exceeding 100 pounds per square inch for the entire set, however, it does not meet this requirement when isolating for cars on lot 3. A potential explanation for this could be that the cars on lot 3 - acting as a sample of all existing mecha cars - are not statistically representative of the entire population. Although the other two lots meet the PSI requirement, there is still possibility that these sample sizes (i.e number of cars on each lot) aren't large enough to represent the entire population of cars.
 
 
 ## T-Tests on Suspension Coils 
