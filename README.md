@@ -34,7 +34,7 @@ Based on the tables above, the current manufacturing data meets the design speci
 
 
 ## T-Tests on Suspension Coils 
-*See images or reference Challenge_summary_stats.txt*
+*See images below or reference Challenge_summary_stats.txt*
 ### Total Summary
 ![total_summarystats](https://user-images.githubusercontent.com/79600550/121824333-7d495880-cc79-11eb-835a-bfd19fe0d54b.png)
 
