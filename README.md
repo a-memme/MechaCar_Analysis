@@ -1,7 +1,7 @@
 # MechaCar_Analysis
 
 ## Linear Regression to Predict MPG
-*See images below for statistical summary references, or reference* [Challenge_summary.txt](https://github.com/a-memme/MechaCar_Analysis/blob/main/Summary_stats.txt)
+*See images below for statistical summary references, or reference* [Summary_stats.txt](https://github.com/a-memme/MechaCar_Analysis/blob/main/Summary_stats.txt)
 ### Non-random coefficients 
 - vehicle length: p-value of 2.60e-12 
 - ground clearance: p-value of 5.21e-08 
