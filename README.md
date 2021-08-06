@@ -77,8 +77,8 @@ A small and simple statistical study that can quantify performance against compe
     - ANOVA - analysis of variance is the fitting statistical test used when comparing means across a number of groups, which is what is proposed here.
     - One-way ANOVA would be used as there is one dependent variable (fuel efficiency) and one independent variable (car manufacturer). 
 - data: 
-    -  data needed would be avg mpg for each car manufacturer, controlling for car type. That is, data could be collected for avg mpg in sedans across a number of different car manufacturers. 
-            -  Note - a simple bar chart as an initial visualization here would be helpful to very clearly and simply display where each car manufacturer is situated in their respective mpg levels. From here, statistical tests are performed to determine significance, and once proven/disproven, there is a better understanding of where significance may specifically exist/not exist across manufacturers. 
+    -  data needed would be avg mpg for each car manufacturer, controlling for car type. That is, data could be collected for avg mpg in sedans across a number of different car manufacturers.
+    -  Note: a simple bar chart as an initial visualization here would be helpful to very clearly and simply display where each car manufacturer is situated in their respective mpg levels. From here, statistical tests are performed to determine significance, and once proven/disproven, there is a better understanding of where significance may specifically exist/not exist across manufacturers. 
 
 
 
