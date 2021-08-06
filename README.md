@@ -68,7 +68,7 @@ When compared to the population mean, the PSI of cars on lot 3 render a p-value 
 A small and simple statistical study that can quantify performance against competitive car brands could be to simply measure the relationship between car fuel effiency and type of car brand. Here, we can piggy-back off the fuel efficiency interest in the original analysis, and see whether there is a statistically significant difference in fuel efficiency when analyzing across different car manufacturers. If MechaCar is truley considered a fuel efficient car, then the statistical analysis will render as significant, and hence indicate that there is true value in choosing it over competitors based on fuel efficient benefits. 
 
 - metrics: 
-    -  avg mpg for similar car styles (i.e trucks, sedans, sports cars, etc.)
+    -  Avg mpg for similar car styles (i.e trucks, sedans, sports cars, etc.)
 - null hypothesis: 
     - Variation in fuel efficiency across different car brands is not staistically significant.
 - alternative hypothesis: 
@@ -77,7 +77,7 @@ A small and simple statistical study that can quantify performance against compe
     - ANOVA - analysis of variance is the fitting statistical test used when comparing means across a number of groups, which is what is proposed here.
     - One-way ANOVA would be used as there is one dependent variable (fuel efficiency) and one independent variable (car manufacturer). 
 - data: 
-    -  data needed would be avg mpg for each car manufacturer, controlling for car type. That is, data could be collected for avg mpg in sedans across a number of different car manufacturers.
+    -  Data needed would be avg mpg for each car manufacturer, controlling for car type. That is, data could be collected for avg mpg in sedans across a number of different car manufacturers.
     -  Note: a simple bar chart as an initial visualization here would be helpful to very clearly and simply display where each car manufacturer is situated in their respective mpg levels. From here, statistical tests are performed to determine significance, and once proven/disproven, there is a better understanding of where significance may specifically exist/not exist across manufacturers. 
 
 
