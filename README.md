@@ -70,7 +70,7 @@ A small and simple statistical study that can quantify performance against compe
 - metrics: 
     -  Avg mpg for similar car styles (i.e trucks, sedans, sports cars, etc.)
 - null hypothesis: 
-    - Variation in fuel efficiency across different car brands is not staistically significant.
+    - Variation in fuel efficiency across different car brands is not statistically significant.
 - alternative hypothesis: 
     - Variation in fuel efficiency across different car brands is statistically significant.
 - statistical test: 
